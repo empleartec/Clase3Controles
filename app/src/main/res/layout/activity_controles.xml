@@ -1,0 +1,64 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="edu.empleartec.clase3controls.ControlesActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:orientation="horizontal">
+        <TextView
+            android:text="@string/un_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:text="@string/un_edit_text"
+            android:hint="@string/ingrese_edit_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColorHint="#FFA0AA"
+            android:textColor="#0000FF"
+            android:id="@+id/editText1"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/un_button"
+            android:id="@+id/button"
+            android:onClick="buttonClick"/>
+
+    </LinearLayout>
+
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/boton_rojo"
+        android:padding="0dp"
+        android:onClick="imageButtonClick"
+        android:background="@android:color/transparent"
+        />
+
+    <ToggleButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/un_toggle_button"
+        android:id="@+id/toggleButton"
+        android:textOn="@string/encendido"
+        android:textOff="@string/apagado"
+        android:onClick="toggleButtonClick"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/un_checkbox"
+        android:id="@+id/checkBox"
+        android:onClick="checkboxClick"/>
+
+
+</LinearLayout>
