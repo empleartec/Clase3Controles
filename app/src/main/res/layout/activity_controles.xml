@@ -7,33 +7,27 @@
     android:orientation="vertical"
     tools:context="edu.empleartec.clase3controls.ControlesActivity">
 
-    <LinearLayout
+    <TextView
+        android:id="@+id/text_nombre"
+        android:text="@string/hola"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:hint="@string/ingrese_edit_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColorHint="#FFA0AA"
+        android:textColor="#0000FF"
+        android:id="@+id/edit_text"
+        />
+
+    <Button
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" android:orientation="horizontal">
-        <TextView
-            android:text="@string/un_text_view"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
-
-        <EditText
-            android:text="@string/un_edit_text"
-            android:hint="@string/ingrese_edit_text"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textColorHint="#FFA0AA"
-            android:textColor="#0000FF"
-            android:id="@+id/editText1"
-            />
-
-        <Button
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/un_button"
-            android:id="@+id/button"
-            android:onClick="buttonClick"/>
-
-    </LinearLayout>
-
+        android:layout_height="wrap_content"
+        android:text="@string/un_button"
+        android:id="@+id/button"
+        android:onClick="buttonClick"/>
 
     <ImageButton
         android:layout_width="wrap_content"
