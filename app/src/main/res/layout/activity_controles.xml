@@ -25,9 +25,9 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/un_button"
+        android:text="@string/saludar"
         android:id="@+id/button"
-        android:onClick="buttonClick"/>
+        android:onClick="saludarClick"/>
 
     <ImageButton
         android:layout_width="wrap_content"

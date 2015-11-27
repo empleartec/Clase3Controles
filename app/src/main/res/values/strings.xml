@@ -4,7 +4,7 @@
 
     <string name="un_text_view">Un TextView</string>
     <string name="action_settings">Settings</string>
-    <string name="un_button">Un Button</string>
+    <string name="saludar">Saludar</string>
     <string name="un_toggle_button">Un ToggleButton</string>
     <string name="ingrese_edit_text">Ingrese su nombre</string>
     <string name="encendido">encendido</string>
